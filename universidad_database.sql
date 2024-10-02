@@ -1,5 +1,3 @@
-
--- Script para crear la base de datos y las tablas
 CREATE DATABASE IF NOT EXISTS Universidad;
 USE Universidad;
 
