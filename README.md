@@ -5,6 +5,7 @@ Este proyecto consiste en la normalización de una base de datos universitaria u
 
 ## Diagrama UML E-R
 El diagrama UML E-R (Entidad-Relación) utilizado en este proyecto refleja las relaciones entre las distintas entidades (Estudiantes, Cursos, Docentes, Aulas, Horarios, y Asignaciones). El diagrama ha sido incluido en este repositorio y explica gráficamente cómo están conectadas las diferentes tablas.
+![image](https://github.com/user-attachments/assets/06545447-edf3-4d42-af1c-1de17972511c)
 
 ## Proceso de Normalización
 ### Primera Forma Normal (1NF)
