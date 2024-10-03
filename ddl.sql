@@ -25,18 +25,18 @@ CREATE TABLE Aula (
     Nombre_Aula VARCHAR(255) NOT NULL
 );
 
+-- Tabla Dias
+CREATE TABLE Dias (
+    Dia_ID INT PRIMARY KEY AUTO_INCREMENT,
+    Nombre_Dia VARCHAR(255) NOT NULL
+);
+
 -- Tabla Horario
 CREATE TABLE Horario (
     Horario_ID INT PRIMARY KEY AUTO_INCREMENT,
     Dia_ID INT,
     Hora TIME NOT NULL,
     FOREIGN KEY (Dia_ID) REFERENCES Dias(Dia_ID)
-);
-
--- Tabla Dias
-CREATE TABLE Dias (
-    Dia_ID INT PRIMARY KEY AUTO_INCREMENT,
-    Nombre_Dia VARCHAR(255) NOT NULL
 );
 
 -- Tabla Asignación
