@@ -52,7 +52,6 @@ CREATE TABLE Asignacion (
     FOREIGN KEY (Curso_ID) REFERENCES Curso(Curso_ID),
     FOREIGN KEY (Docente_ID) REFERENCES Docente(Docente_ID),
     FOREIGN KEY (Aula_ID) REFERENCES Aula(Aula_ID),
-    FOREIGN KEY (Horario_ID) REFERENCES Horario(Horario_ID),
-    FOREIGN KEY (Dia_ID) REFERENCES Dias(Dia_ID)
+    FOREIGN KEY (Horario_ID) REFERENCES Horario(Horario_ID)
 );
 
